@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sachinyadav12345/Restoral/static/css/main.dc2d3da9.css",
+    "main.js": "/sachinyadav12345/Restoral/static/js/main.3c5b533e.js",
+    "static/js/453.26e99be9.chunk.js": "/sachinyadav12345/Restoral/static/js/453.26e99be9.chunk.js",
+    "static/media/bg_img_new.png": "/sachinyadav12345/Restoral/static/media/bg_img_new.ee4461a8df1368f20a31.png",
+    "static/media/home-slide-1-1920x800.jpg": "/sachinyadav12345/Restoral/static/media/home-slide-1-1920x800.71b9405edf886ed1333b.jpg",
+    "static/media/pizza image.png": "/sachinyadav12345/Restoral/static/media/pizza image.6596382b7c85c935aef1.png",
+    "static/media/about-1.png": "/sachinyadav12345/Restoral/static/media/about-1.f9bdc26b85a29c6d6a8e.png",
+    "static/media/Sorry_No_Image_Currently_Available6439.jpg": "/sachinyadav12345/Restoral/static/media/Sorry_No_Image_Currently_Available6439.b8a668be4ba4ad90069a.jpg",
+    "index.html": "/sachinyadav12345/Restoral/index.html",
+    "main.dc2d3da9.css.map": "/sachinyadav12345/Restoral/static/css/main.dc2d3da9.css.map",
+    "main.3c5b533e.js.map": "/sachinyadav12345/Restoral/static/js/main.3c5b533e.js.map",
+    "453.26e99be9.chunk.js.map": "/sachinyadav12345/Restoral/static/js/453.26e99be9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc2d3da9.css",
+    "static/js/main.3c5b533e.js"
+  ]
+}
