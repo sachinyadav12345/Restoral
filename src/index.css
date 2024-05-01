@@ -1,0 +1,327 @@
+/********************************   Navbar  CSS  *******************************/
+
+.my-navbar-main {
+  height: 108px;
+}
+
+.my-navbar-brand {
+  width: auto;
+  max-height: 30px !important;
+}
+
+.my-navbar-ul li a {
+  color: #000000b3 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.my-navbar-ul li a:hover {
+  color: #f9b129 !important;
+}
+
+.my-navbar-ul .myli {
+  border-left: 1px solid #d1d1d1 !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.my-navbar-toogle {
+  border: none !important;
+  background-color: none;
+}
+
+.my-navbar-responsive {
+  width: 270px !important;
+  border-right-color: #f9b129;
+}
+
+.my-nav-link {
+  text-decoration: none;
+  color: black;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.my-nav-link:hover {
+  background-color: #f9b129 !important;
+}
+
+
+
+/*************************************              home         *********************************************/
+.home-img {
+  background-image: url('../src/Assets/Img/home-slide-1-1920x800.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+
+}
+
+.restaurant-heading {
+  font-family: "Raleway", sans-serif;
+
+
+}
+
+.restaurant-heading::after {
+  background: #e84118;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  margin: 10px auto;
+
+}
+
+.frist-heading {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  display: inline-flex;
+
+}
+
+.frist-heading .heading {
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+
+.frist-heading .heading .new {
+  font-size: 60px;
+}
+
+.pizza-text {
+  font-size: 100px;
+}
+
+.second-heading h1 {
+  color: #fccb56;
+  text-transform: uppercase;
+  font-family: "Changa One", sans-serif;
+  font-size: 52px;
+}
+
+.box {
+  padding-top: 55px;
+}
+
+.button .order-online {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 30px;
+  background-color: #ec5353;
+  border-color: #ec5353;
+  font-size: 15px;
+  margin-top: 23px;
+}
+.img-contain .myimg{
+  animation: loading 10s linear infinite;
+  max-width: 74% !important;
+ }
+
+
+ @keyframes loading {
+  0% { 
+    transform: rotate(0); 
+  }
+  100% { 
+    transform: rotate(360deg);
+  }
+ }
+
+
+/********************************      LogIn page                 **********************************/
+
+.login-page {
+  background-image: url('../src/Assets/Img/bg_img_new.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  /* filter: blur(5px);
+  filter: brightness(50%); */
+  width: 100%;
+  padding-top: 80px;
+}
+
+.login-contain {
+  padding-right: 30px;
+  width: 500px;
+  height: auto;
+  padding-bottom: 44px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login-hading h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.login-hading h2::after {
+  background: #18890b;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+
+/**********************************   About Resto   **********************************/
+
+.About-Restol {
+  background: #eceeed;
+  fill: #eceeed;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: 20% 33%;
+
+  background-image: url("../src/Assets/Img/about-1.png");
+}
+
+.heading h2 {
+  font-family: 'Lato';
+  font-weight: 600;
+  word-spacing: 1px;
+}
+
+.heading p {
+  font-size: 14px;
+  line-height: 1.71429;
+  color: #9b9b9b;
+  padding-top: 10px;
+}
+
+.counter {
+  font-size: 55px;
+  font-weight: bold;
+  color: #f9b129;
+  font-family: 'Changa One';
+}
+
+.counter p {
+  color: #9b9b9b !important;
+  font-size: 20px;
+  font-family: "Oswald";
+  font-weight: 400 !important;
+
+}
+
+.content-section {
+  padding-top: 90px;
+}
+
+.about-button .see-our-menu {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding: 12px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border-radius: 30px;
+  background-color: #ec5353;
+  border-color: #ec5353;
+  font-size: 14px;
+  float: left;
+  margin-top: 55px;
+}
+
+/*******************************************  Footer      *****************************************/
+
+.footer{
+  background-color: #23201e;
+  width: 100%;
+  height: 330px;
+}
+.footer-heading{
+  float: left;
+  padding-top: 50px;
+}
+
+
+/********************************************* Media Screen *******************************************/
+
+@media screen and (max-width: 480px) {
+  .login-contain {
+    width: auto !important;
+  }
+.mobile-view{
+  width: 360px !important;
+  overflow-y: auto !important;
+}
+.responsive{
+  margin-bottom: 10px !important;
+}
+  .frist-heading .heading {
+    padding-top: 20px !important;
+  }
+
+  .frist-heading .heading .new {
+    font-size: 30px;
+  }
+
+  .pizza-text {
+    font-size: 57px;
+  }
+
+  .second-heading h1 {
+    font-size: 30px;
+  }
+
+  .button .order-online {
+    margin-top: 15px !important;
+    padding: 10px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    font-size: 10px !important;
+  }
+
+  .home-img {
+    height: 250px !important;
+  }
+
+  .box {
+    padding-top: 0px !important;
+  }
+
+  .img-contain {
+    display: none !important;
+  }
+
+  .About-Restol {
+    background-image: none !important;
+    height: auto !important;
+  }
+
+  .content-section {
+    padding-top: 30px !important;
+  }
+
+  .counter {
+    font-size: 40px;
+  }
+
+  .counter p {
+    font-size: 17px;
+  }
+
+  .about-button .see-our-menu {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+    float: none !important;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+}

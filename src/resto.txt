@@ -1,0 +1,15 @@
+https://demo.hasthemes.com/restoral/index.html
+
+   let formData = new FormData();
+    formData.append("name", values.name);
+    formData.append("phone_number", values.phone_number);
+    formData.append("email", values.email);
+    formData.append("password", values.password);
+    formData.append("confirmpassword", values.confirmpassword);
+    formData.append("address", values.address);
+    formData.append("rating", values.rating);
+    formData.append("description", values.description);
+    formData.append("country", values.country);
+    formData.append("state", values.state);
+    formData.append("city", values.city);
+    formData.append("file", values.file);
